@@ -1,12 +1,15 @@
 import "./App.css";
+import Head from "./components/Head";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-black text-orange-500 underline">
-        Hello world!
-      </h1>
-    </>
+    <div >
+      <Navbar/>
+      <Head/>
+    </div>
   );
 }
 
 export default App;
+
+
